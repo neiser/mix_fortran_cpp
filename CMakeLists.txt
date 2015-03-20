@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 2.6)
+project(mix_fortran_cpp Fortran CXX)
+set(SRCS cpp_main_1.cpp fortran_matrix_multiply.f90)
+add_executable(mix_fortran_cpp ${SRCS})
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")

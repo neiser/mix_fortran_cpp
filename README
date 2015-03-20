@@ -6,4 +6,8 @@ You could use this program under the terms of GPL v3, for more details see:
 
 http://www.gnu.org/copyleft/gpl.html
 
+To compile with cmake, run
+
+mkdir build && cd build && cmake .. && make
+
 Copyright 2012 Sol from www.solarianprogrammer.com
